@@ -1,0 +1,24 @@
+.categorias{
+    display: inline-block;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.categorias ul {
+    list-style-type: none;
+}
+
+.categorias li {
+    float: left;
+}
+
+.categorias a {
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    padding: 1.5em;
+}
+
+.categorias a:hover{
+    color: gainsboro;;
+}
